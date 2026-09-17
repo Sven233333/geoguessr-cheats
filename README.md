@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>An AI GeoGuessr cheat that reads the street view off your screen and names the location in about three seconds.</b><br/>
-  Auto guess for Classic, Duels, Team Duels and the Daily, across Move, No Move and NMPZ. About 81 percent correct country in real ranked games, 111 countries.<br/>
+  Auto guess for Classic, Duels, Team Duels, Country Streak, the Daily and any community map, across Move, No Move and NMPZ. About 81 percent correct country in real ranked games, 111 countries.<br/>
   <b>One key, every platform:</b> Windows, Steam, Chrome, Firefox, macOS, iPhone and Android.
 </p>
 
@@ -217,7 +217,7 @@ Yes, through the Windows app, in all three movement rulesets. Windows only,
 because the Steam edition has no Mac build.
 
 **Can it play NMPZ?**
-Yes. Classic, Duels, Team Duels and the Daily, in Move, No Move and NMPZ.
+Yes. Classic, Duels, Team Duels, Country Streak and the Daily, in Move, No Move and NMPZ. Paste a community map's address and it plays that one instead of the world.
 
 **Does it need a fast computer?**
 No. Since v1.5 the heavy part runs on our side, which is also why it keeps
