@@ -47,7 +47,7 @@ Watch a full session:
 - [One key, five places to use it](#one-key-five-places-to-use-it)
 - [A round, from start to pin](#a-round-from-start-to-pin)
 - [Every platform has its own page](#every-platform-has-its-own-page)
-- [How it got here: v1.0 to v1.7](#how-it-got-here-v10-to-v17)
+- [How it got here: v1.0 to v1.9](#how-it-got-here-v10-to-v19)
 - [Numbers we publish](#numbers-we-publish)
 - [What it costs](#what-it-costs)
 - [Two free userscripts, no key needed](#two-free-userscripts-no-key-needed)
@@ -124,7 +124,7 @@ to deserve a straight answer rather than a footnote.
 
 ![The ATLAS desktop app mid session, four street views of a Japanese street with the prediction beside them](images/platforms-gui.webp)
 
-## How it got here: v1.0 to v1.7
+## How it got here: v1.0 to v1.9
 
 The full list with every entry lives at
 [geoguessrcheats.com/changelog](https://geoguessrcheats.com/changelog). This is
@@ -161,6 +161,18 @@ before the pin drops.
 **v1.7, the phone.** The extension arrived on Firefox, the panel started working
 on an iPhone and on Android, you can switch browsers without reinstalling, and
 the bot stopped throwing away rounds it never had to lose.
+
+**v1.8, you play, it helps.** Helper mode: ATLAS never moves the camera or picks a
+mode, it guesses when you ask. Six rebindable keys inside the game window, and
+the guess names the state or province and the district under the country. NMPZ
+stopped playing every round twice.
+
+**v1.9, more to play and less waiting.** Country Streak, and Custom, where you
+paste a community map's address and the bot plays that map. Shorter rounds, Duels
+working again after GeoGuessr rebuilt its lobby, and Game History that opens any
+round you played with the four views, the guess and the real location. The point
+releases up to 1.9.5 made signing in work without Chrome and kept the bot going
+after GeoGuessr's own updates.
 
 ## Numbers we publish
 
