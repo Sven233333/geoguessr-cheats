@@ -39,6 +39,13 @@ Watch a full session:
 
 [![The ATLAS GeoGuessr cheat naming a country during a live round, video on YouTube](images/video-geoguessr-cheat.jpg)](https://youtu.be/K63r-8UcvPc)
 
+## Guides on the site
+
+- [How to cheat in GeoGuessr, every way](https://geoguessrcheats.com/how-to-cheat-in-geoguessr)
+- [GeoGuessr hack: the AI location finder](https://geoguessrcheats.com/geoguessr-hack)
+- [GeoGuessr Steam cheat: the full guide](https://geoguessrcheats.com/geoguessr-steam-cheat)
+- [WorldGuessr cheat](https://geoguessrcheats.com/worldguessr-cheat)
+
 ---
 
 ## Contents
