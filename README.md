@@ -15,7 +15,7 @@
   <a href="https://geoguessrcheats.com"><img alt="Get the ATLAS GeoGuessr hack at geoguessrcheats.com" src="https://img.shields.io/badge/Get%20ATLAS-geoguessrcheats.com-FF6600?style=for-the-badge"></a>
   <a href="https://discord.gg/zwYXRgRRHc"><img alt="Join the ATLAS GeoGuessr Discord community" src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
   <a href="https://youtu.be/K63r-8UcvPc"><img alt="Watch the ATLAS GeoGuessr cheat on YouTube" src="https://img.shields.io/badge/Watch-on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-  <img alt="Latest version 1.9" src="https://img.shields.io/badge/version-1.9-FF6600?style=for-the-badge">
+  <img alt="Latest version 2.1" src="https://img.shields.io/badge/version-2.1-FF6600?style=for-the-badge">
   <img alt="Predictions in about three seconds" src="https://img.shields.io/badge/prediction-about%203s-2ecc71?style=for-the-badge">
   <img alt="111 GeoGuessr countries supported" src="https://img.shields.io/badge/countries-111-3498db?style=for-the-badge">
 </p>
@@ -30,10 +30,11 @@
 
 ATLAS looks at the street view you are already looking at, works out where in the
 world it is, and puts the pin there. On Windows it goes further and plays entire
-sessions on its own. One licence key covers every place it runs: the Windows app,
-the browser extension in Chrome and Firefox, and the iPhone and Android apps.
+sessions on its own, with more than one bot at a time in a single window. One
+licence key covers every place it runs: the Windows app, the browser extension in
+Chrome and Firefox, and the iPhone and Android apps.
 
-![The ATLAS GeoGuessr cheat during a live round, showing the predicted country and coordinates next to the street view](images/app-screenshot-live.webp)
+![The ATLAS V2.1 desktop app during a Classic round: best guess Japan, Hokkaido, with the four street views, the log and the session stats](images/app-screenshot-live.webp)
 
 Watch a full session:
 
@@ -54,7 +55,7 @@ Watch a full session:
 - [One key, five places to use it](#one-key-five-places-to-use-it)
 - [A round, from start to pin](#a-round-from-start-to-pin)
 - [Every platform has its own page](#every-platform-has-its-own-page)
-- [How it got here: v1.0 to v1.9](#how-it-got-here-v10-to-v19)
+- [How it got here: v1.0 to V2.1](#how-it-got-here-v10-to-v21)
 - [Numbers we publish](#numbers-we-publish)
 - [What it costs](#what-it-costs)
 - [Two free userscripts, no key needed](#two-free-userscripts-no-key-needed)
@@ -81,8 +82,9 @@ the spot it worked out.
 **It plays.** On Windows only, it starts the game, plays the round, submits,
 takes the next one, and keeps going. You can leave the desk.
 
-What it does not do is move inside the round. It does not walk, pan or zoom the
-street view looking for clues. It reads what is on screen and answers.
+What it does not do is go hunting for clues. The answer comes from the spot where
+the round starts, and ATLAS never travels down the road looking for a sign to
+improve it.
 
 ## One key, five places to use it
 
@@ -94,6 +96,7 @@ This is the honest table, including the boxes we cannot tick.
 | Drops the pin on the map for you | Yes | Yes | Yes | Yes | Yes |
 | Presses Guess for you | Yes | Yes | No | Yes | Yes |
 | Starts games and plays session after session | Yes | No | No | No | No |
+| Several bots at once, each on its own account | Yes, 2 or 4 | No | No | No | No |
 | GeoGuessr on Steam | Yes | No | No | No | No |
 | Free rounds before you buy | No | 7 | 7 | No | No |
 | Also runs on macOS | No | Yes | Yes | No | No |
@@ -105,12 +108,14 @@ these.
 ## A round, from start to pin
 
 1. The round opens and the street view loads.
-2. ATLAS takes the view as it is. No moving, no panning, no zooming for clues.
+2. ATLAS reads the view from where the round starts. The Windows app takes four
+   views around that spot.
 3. It works out the country first, then narrows down inside it.
 4. You get a country, a region or town, a direction, and coordinates.
 5. The pin goes on the map, and on every platform except Firefox it can press
    Guess as well.
-6. On Windows it takes the next round by itself and repeats until you stop it.
+6. On Windows it takes the next round by itself and repeats until you stop it. A
+   planned stop lets the game in progress finish first.
 
 Most rounds are answered in under three seconds.
 
@@ -121,7 +126,7 @@ to deserve a straight answer rather than a footnote.
 
 | Platform | Repository | The short version |
 |---|---|---|
-| Windows | [atlas-geoguessr-windows-app](https://github.com/Sven233333/atlas-geoguessr-windows-app) | The only one that plays unattended |
+| Windows | [atlas-geoguessr-windows-app](https://github.com/Sven233333/atlas-geoguessr-windows-app) | The only one that plays unattended, several bots at once |
 | Steam | [atlas-geoguessr-steam](https://github.com/Sven233333/atlas-geoguessr-steam) | The Steam client, driven by the Windows app |
 | Chrome | [atlas-geoguessr-chrome-extension](https://github.com/Sven233333/atlas-geoguessr-chrome-extension) | Seven rounds free, nothing to install on your system |
 | Firefox | [atlas-geoguessr-firefox-addon](https://github.com/Sven233333/atlas-geoguessr-firefox-addon) | Same panel, one missing button |
@@ -129,9 +134,7 @@ to deserve a straight answer rather than a footnote.
 | iPhone and iPad | [atlas-geoguessr-ios](https://github.com/Sven233333/atlas-geoguessr-ios) | On the phone, new in v1.7 |
 | Android | [atlas-geoguessr-android](https://github.com/Sven233333/atlas-geoguessr-android) | On the phone, new in v1.7 |
 
-![The ATLAS desktop app mid session, four street views of a Japanese street with the prediction beside them](images/platforms-gui.webp)
-
-## How it got here: v1.0 to v1.9
+## How it got here: v1.0 to V2.1
 
 The full list with every entry lives at
 [geoguessrcheats.com/changelog](https://geoguessrcheats.com/changelog). This is
@@ -181,10 +184,32 @@ round you played with the four views, the guess and the real location. The point
 releases up to 1.9.5 made signing in work without Chrome and kept the bot going
 after GeoGuessr's own updates.
 
+**V2, several bots in one window (24 October 2026).** The Windows app runs more
+than one bot at a time: two on Pro and Yearly, four on Lifetime. Each bot has a
+GeoGuessr account you sign in once and that stays signed in, with a proxy of its
+own if you want one. Two of your bots can play Team Duels as one team, or you can
+host a party with your own bots in it. Stats and History cover every bot, with
+personal records, and a recap card sums up each session. Settings save
+themselves, you can sign in through the browser instead of pasting a key, and an
+expired key offers Renew right in the app.
+
+**The extension, 1.7.** A redrawn panel in light and dark, a dot that marks the
+answer on GeoGuessr's own map when Auto Place is off, a Profile tab with your own
+GeoGuessr numbers, and History game by game. Version 1.7.1 is the one in the
+stores now.
+
+**V2.1, calmer and quicker (6 November 2026).** The overview and every bot's page
+were redrawn, with the tabs moved into the title bar. Photos are scored while the
+bot is still looking around, which made solo rounds up to 25 percent faster;
+Duels hardly changed. A shield over the bot's window takes your own mouse while
+it plays, so a stray click cannot nudge it mid round. A planned stop lets the
+running game finish, and a key you change in the app stays changed.
+
+V2.2 is due on 21 November 2026.
+
 ## Numbers we publish
 
-Two of them, and we would rather publish two we can stand behind than ten we
-cannot.
+Only these, because a few figures we can stand behind beat ten we cannot.
 
 - **81 percent** country accuracy in real games, not in a laboratory set.
 - **111 countries** covered.
@@ -198,11 +223,13 @@ looks like, is written up at
 
 | Plan | Price | Notes |
 |---|---|---|
-| Pro | 14.99 euro per month | Everything, month to month |
-| Yearly | 33.50 euro per year | Works out to 2.79 euro per month |
-| Lifetime | 50.00 euro once | Cheaper than four months of Pro |
+| Pro | 14.99 euro for 30 days | One payment, two bots at once in the Windows app |
+| Yearly | 33.50 euro per year | Works out to 2.79 euro per month, no machine lock |
+| Lifetime | 50.00 euro once | Four bots at once, six devices, early access to new features |
 
-Nothing renews on its own. Full detail and payment methods:
+Nothing renews on its own. You can pay with crypto, gift cards, CS2 skins, or card
+and PayPal through G2G, and a refund is possible within seven days if ATLAS will
+not run on your PC and we cannot fix it. Full detail:
 [geoguessrcheats.com/plans](https://geoguessrcheats.com/plans).
 
 If you want to try before any of that, the Chrome and Firefox extensions give you
@@ -236,7 +263,11 @@ Yes, through the Windows app, in all three movement rulesets. Windows only,
 because the Steam edition has no Mac build.
 
 **Can it play NMPZ?**
-Yes. Classic, Duels, Team Duels, Country Streak and the Daily, in Move, No Move and NMPZ. Paste a community map's address and it plays that one instead of the world.
+Yes. Classic, Duels, Team Duels, a party of your own, Country Streak and the Daily, in Move, No Move and NMPZ. Paste a community map's address and it plays that one instead of the world.
+
+**Can I run more than one bot?**
+Yes, in the Windows app since V2. Pro and Yearly run two at once and Lifetime
+four, each signed in to its own GeoGuessr account.
 
 **Does it need a fast computer?**
 No. Since v1.5 the heavy part runs on our side, which is also why it keeps
